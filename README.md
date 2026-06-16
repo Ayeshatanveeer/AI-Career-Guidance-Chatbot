@@ -30,6 +30,28 @@ The main purpose of this project is to create a custom chatbot that helps studen
 - Web Scraping
 - Natural Language Processing Concepts
 
+
 ---
 
-## Project Structure
+## How It Works
+
+### Data Collection (Web Scraping)
+
+- The scraper collects career-related information from an online website.
+- BeautifulSoup is used to extract useful content.
+- The extracted data is stored in `data.txt`.
+
+### Chatbot System
+
+- The chatbot reads the collected information.
+- Users can ask career-related questions.
+- The chatbot provides guidance based on the available knowledge.
+
+---
+
+## Installation
+
+First, install the required libraries:
+
+```bash
+pip install -r requirements.txt
